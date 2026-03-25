@@ -1,12 +1,10 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
-
 name: simple-flask-app-terraform
-
 services:
   python-app:
     project: .
     language: py
     host: appservice
-
 infra:
   provider: terraform
+metadata:
+  template: simple-flask-app-terraform@0.0.1-beta
