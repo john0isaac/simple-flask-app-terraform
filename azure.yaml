@@ -7,4 +7,4 @@ services:
 infra:
   provider: terraform
 metadata:
-  template: simple-flask-app-terraform@0.0.1-beta
+  template: simple-flask-app-terraform@1.0.0
