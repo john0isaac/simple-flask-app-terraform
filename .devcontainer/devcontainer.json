@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json.
 {
 	"name": "simple-flask-server-example",
-	"image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
+	"image": "mcr.microsoft.com/devcontainers/python:3.10-bookworm",
 
 	// See https://containers.dev/implementors/features/
 	"features": {
